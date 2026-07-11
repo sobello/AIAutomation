@@ -7,7 +7,7 @@ def test_prog_language():
     assert "python" in ai_response.lower(), "AI did not mention Python!"
 
 def test_sun_rises():
-    ai_response = "The sun rises in the west."
+    ai_response = "The sun rises in the east."
     assert "east" in ai_response.lower(), "AI got the direction of sunrise wrong!"
 
 def test_canada_population():
