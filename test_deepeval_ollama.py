@@ -1,7 +1,7 @@
 import pytest
 from deepeval.test_case import LLMTestCase
 from conftest import OllamaTestClient, OllamaJudge
- 
+
  
 def test_response_relevancy_detection():
     """
