@@ -12,7 +12,7 @@ def test_response_relevancy_detection():
     client = OllamaTestClient(model="tinyllama:latest")
     judge = OllamaJudge(model="tinyllama:latest")
    
-    # Check if Ollama is available
+    # Check if Ollama is available...and skip the test if not
     if not client.check_model_available():
         pytest.skip("Ollama model not available")
    
