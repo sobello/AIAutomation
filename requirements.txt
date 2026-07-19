@@ -1,0 +1,10 @@
+pytest
+requests
+pytest
+requests
+python-dotenv
+openai
+pytest
+requests
+pytest-playwright
+playwright
