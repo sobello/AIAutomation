@@ -3,7 +3,7 @@ def test_boiling_point():
    assert "100" in ai_response, "AI got the boiling point wrong!"
 
 def test_prog_language():
-    ai_response = "Python is a programming language."
+    ai_response = "Python is a programming language--yes."
     assert "python" in ai_response.lower(), "AI did not mention Python!"
 
 def test_sun_rises():

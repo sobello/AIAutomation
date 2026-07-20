@@ -7,12 +7,12 @@ def test_response_relevancy_detection():
     """
     Single test case to detect response relevancy using Ollama as judge.
     This test validates that Ollama returns relevant answers to prompts.
-    Will FAIL if the response is irrelevant or incorrect. Truth
+    Will FAIL if the response is irrelevant or incorrect.
     """
     client = OllamaTestClient(model="tinyllama:latest")
     judge = OllamaJudge(model="tinyllama:latest")
    
-    # Check if Ollama is available...and skip the test if not
+    # Check if Ollama is available
     if not client.check_model_available():
         pytest.skip("Ollama model not available")
    

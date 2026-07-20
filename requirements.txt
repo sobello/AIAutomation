@@ -1,0 +1,9 @@
+openai
+pytest
+requests
+pytest-playwright
+playwright
+python-dotenv
+robotframework
+robotframework-browser
+deepeval
